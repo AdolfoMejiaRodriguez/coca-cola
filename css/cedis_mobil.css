@@ -1,0 +1,50 @@
+#cedis {
+    padding: 50px 0;
+}
+
+.acordeon {
+  display: none;
+  margin: auto;
+  width: 70%;
+}
+
+  .acordeon__titulo {
+    color: #646464;
+    background: #fff;
+    line-height: 2.8;
+    padding: 0 10px;
+    font-size: 1.2em;
+    margin: 0;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+  }
+  
+    .acordeon__titulo img {
+      margin-right: 10px;
+      width: 30px;
+    }   
+
+  .acordeon__contenido {
+    display: none;
+    line-height: 20px;
+    background: #f5f5f5;
+    padding: 10px 10px 10px 20px;
+  }
+
+@media screen and (max-width: 720px) {
+  .acordeon {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .acordeon__titulo {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .acordeon__contenido {
+    font-size: 13px;
+  }
+}

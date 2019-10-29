@@ -1,0 +1,134 @@
+    #inicio .p1 {
+        font-size: 25px;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 35px;
+        padding: 75px 250px;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 1366px) {
+        #inicio .p1 {
+            padding: 75px 100px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        #inicio .p1 {
+            font-size: 20px;
+            line-height: 25px;
+            padding: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 576px) {
+        #inicio .p1 {
+            font-size: 15px;
+            line-height: 20px;
+            padding: 40PX 20px;
+        }
+    }
+    /* CONTAINER INICIO */
+    
+    .flex-container-inicio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .flex-container-inicio .item {
+        flex: 1 0 calc(32%);
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        transition: all 0.3s ease;
+    }
+    
+    .flex-container-inicio #item1 {
+        background-image: url("../img/industria-mexicana.jpg");
+    }
+    
+    .flex-container-inicio #item2 {
+        background-image: url("../img/revista-voces.jpg");
+    }
+    
+    .flex-container-inicio #item3 {
+        background-image: url("../img/bolsa-trabajo2.jpg");
+    }
+    
+    .flex-container-inicio .item:hover {
+        background-size: 135%;
+    }
+    
+    .item-inicio-container {
+        background: rgba(0, 0, 0, .5);
+        padding: 40px 20px;
+    }
+    
+    .flex-container-inicio H3 {
+        font-style: italic;
+        font-size: 25px;
+        font-weight: bold;
+        height: 60px;
+    }
+    
+    .flex-container-inicio p {
+        font-style: italic;
+        height: 130px;
+        line-height: 25px;
+    }
+    
+    .flex-container-inicio a {
+        border: 1px solid #fff;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    
+    .flex-container-inicio a:hover {
+        border: 1px solid #dd0000;
+        background: #fff;
+        color: #dd0000;
+    }
+    
+    @media screen and (max-width: 1170px) {
+        .flex-container-inicio .item {
+            flex: 1 0 calc(50%);
+        }
+        .flex-container-inicio #item3 p {
+            height: 90px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .flex-container-inicio p {
+            height: 105px;
+            line-height: 17px;
+            font-size: 15px;
+        }
+        .flex-container-inicio H3 {
+            font-weight: bold;
+            font-size: 20px;
+            height: 45px;
+        }
+        .flex-container-inicio a {
+            border: 1px solid #fff;
+            color: #fff;
+            padding: 10px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+    }
+    
+    @media screen and (max-width: 650px) {
+        .flex-container-inicio .item {
+            flex: 1 0 calc(100%);
+        }
+        .flex-container-inicio .item p {
+            height: 80px;
+        }
+    }

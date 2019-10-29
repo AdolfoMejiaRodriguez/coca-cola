@@ -1,0 +1,806 @@
+﻿/***************************GENERALES*****************************/
+
+.contenedor{
+	width: 100%;
+	background: #ffffff;
+}
+.contenido{
+	width: 85%;
+	max-width: 1370px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+/*---------------------------BOTON--------------------------------*/
+.boton{
+	height: 35px;
+	width: 120px;
+	background-color: rgba(255,255,255,.5);
+	border:0;
+	border-radius: 50px;
+	font-size: 12px;
+	color: #5a5a5a;
+	margin: 10px;
+}
+.boton:hover{
+	width: 140px;
+	background-color: rgba(255,81,72, 0.8);
+	color: #fff;
+	font-weight: 400;
+}
+
+
+textarea {
+    min-height:110px;
+    max-width: 100%;
+}
+#select{
+    height: 41px;
+    width: 102%;
+}
+.doble, .triple{
+	display: inline-block;
+	vertical-align: top;
+}
+.doble{
+	width: 48%;
+}
+.triple{
+	width: 32.5%;
+}
+#subsubt{
+	font-style: italic;
+	font-size: 15pt;
+	color: #aaa;
+}
+/*-------------------------------MENÚ DE NAVEGACIÓN------------------------------*/
+
+/*-------------------------------PRINCIPAL------------------------------*/
+#presentacion{
+	padding-top: 20px;
+}
+#divpres{
+	border-radius: 5px;
+}
+#presslide{
+	padding-top: 50px;
+}
+#imgembj{
+	margin-top: -50px;
+}
+#presstext{
+	margin-top: 25px;
+	margin-right: 150px;
+	width: 500px;
+	border-radius: 5px;
+	float: right !important;
+	text-align: justify;
+}
+#presstext p{
+	font-style: italic;
+	font-size: 14pt;
+	margin: 10px;
+}
+#bienvmsj{
+	text-align: justify;
+	font-size: 15pt;
+	padding: 25px 50px 0 50px;
+	font-weight: 300;
+}
+#preslinks{
+	text-align: center;
+}
+#preslinks div{
+	margin-top: 20px;
+}
+#prininfo p{
+	font-size: 11pt;
+	font-weight: 400;
+	margin: 10px;
+}
+#triggerID table{
+	text-align: left;
+}
+#triggerID table td{
+	height: 30px;
+	border-bottom: 1px solid #f4f4f4;
+}
+/*-------------------------------NOSOTROS------------------------------*/
+
+/*-------------------------------PRODUCTOS------------------------------*/
+
+/*-----------------Slider------------------------*/
+
+
+/*-------------------------------PRENSA------------------------------*/
+
+/*-------------------------------TRABAJO------------------------------*/
+
+/*-------------------------------CONTACTO------------------------------*/
+
+/*-------------------------------FOOTER------------------------------*/
+
+/*-----------------------------MODAL*/
+#modal-close{
+	height: 15px;
+	width: 15px;
+	float: right;
+	text-align: center;
+}
+#modal-close:hover{
+	color: #fff;
+}
+.modal-background {
+	z-index: 1;
+    display: none;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal-content {
+	z-index: 2;
+	display: none;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 #aaa;
+    top: 50px;
+    left: 25%;
+    right: 25%;
+}
+.modal-content h3{
+	margin: 15px;
+}
+.modal-content p{
+	margin: 10px 50px 10px 50px;
+	text-align: justify;
+}
+.modal-background.active, .modal-content.active {
+    display: block;
+}​
+.modalDialog {
+        position: fixed; 
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+    }
+
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+/***************************RESPONSIVE*****************************/
+/*---------------------------ANTIGUAS-------------------------------*/
+@media screen and (max-width: 1170px) {
+
+#espacio{
+	width: 100%;
+	height: 30px;
+}
+}
+@media screen and (max-width: 1024px) {
+	nav{
+		padding-right: 40px; 
+	}
+	.contenido{
+		width: 90%;
+	}
+	#logo{
+		padding-left: 40px;
+	}
+
+	/*****************Slider************************/
+#espacio{
+	width: 100%;
+	height: 30px;
+}
+
+.ei-slider-thumbs{
+	top:50px;
+	height: 4px;
+	margin: 0 auto;
+}
+	.ei-title{
+		position: absolute;
+		right: 0px;
+		margin-right: 0px;
+		width: 100%;
+		text-align: center;
+		top: auto;
+		bottom: 10px;
+		background: #fff;
+		background: rgba(255,255,255,0.9);
+		padding: 5px 0;
+		opacity: 0.9;
+		margin:0 auto;
+
+	}
+	.ei-title h2, .ei-title h3{
+		text-align: center;
+		margin: 0px 10px;
+	}
+	.ei-title h2{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.ei-title h3{
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+}
+
+/***************************SMARTPHONE*****************************/
+@media screen and (max-width: 720px){
+	/***************************GENERALES*****************************/
+	#mobmenu{
+		width: 200px;
+	}
+	h1, h2, h3, h4{
+		font-weight: 300;
+		cursor: default;
+		padding: 10px;
+	}
+	h1{font-size: 20pt;} h2{font-size: 18pt;} h3{font-size: 14pt;} h4{font-size: 12pt;}
+	.contenido{
+		width: 95%;
+	}
+	.doble, .triple{
+		width: 100% !important;
+		display: block;
+	}
+	/***************************PRESENTACIÓN*****************************/
+	#presentacion .slideshow{
+		height: 150px;
+		text-align: center;
+	}
+	#presentacion p{
+		font-size: 12pt;
+		text-align: justify;
+	}
+	#prininfo p{
+		font-size: 11pt;
+	}
+	#bienvmsj{
+		margin: 0;
+		padding: 10px;
+	}
+	/***************************NOSOTROS*****************************/
+	#nosotros{
+		background: url(../img/fact.jpg) no-repeat;
+		background-size: 100% 210px;
+		background-position: top center;
+	}
+	#divmv{
+		width: 100%;
+	}
+	#divmv h3{
+		padding: 20px 0 0 20px;
+	}
+	#divmv p{
+		padding: 0 20px 20px 20px;
+	}
+	.valores{
+		width: 75%;
+		border:0;
+		height: auto;
+	}
+	.valores p{
+		margin: 20px;
+		text-align: justify;
+	}
+	.valores h4{
+		margin: 5px;
+		padding: 0;
+	}
+	.seccion-cdis{
+		display: none;
+	}
+	
+	#prodmenu{
+		margin-top: 10px; 
+	}
+	#prodmenu table{
+		float: left;
+	}
+	#prodmenu table img{
+		height: 50px;
+	}
+	#prodmenu table td{
+		width: 200px; 
+		height: 125px;
+	}
+	/***************************TRABAJO*****************************/
+	#trabajoform form{
+		width: 95%;
+	}
+	#vacant{
+		margin: 0;
+	}
+	#contmap{
+		height: 240px;
+		background-size: 60%;
+	}
+	#contmap img{
+		margin-top: 20px;
+	}
+	#contmap button{
+		margin-top: 60px;
+	}
+	#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+/*****************Slider************************/
+
+.ei-slider{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+
+}
+.ei-slider-thumbs{
+	top:50px;
+	height: 4px;
+	margin: 0 auto;
+}
+.ei-title{
+	position: absolute;
+	right: 0px;
+	margin-right: 0px;
+	width: 100%;
+	text-align: center;
+	top: auto;
+	bottom: 7px;
+	background: #fff;
+	background: rgba(255,255,255,0.9);
+	padding: 5px 0;
+	opacity: 0.9;
+	margin:0 auto;
+
+	}
+.ei-title h2, .ei-title h3{
+	text-align: center;
+	margin: 0px 2px;
+	}
+.ei-title h2{
+	font-size: 14px;
+	line-height: 2px;
+	}
+.ei-title h3{
+	font-size: 10px;
+	line-height: 1px;
+	}
+
+
+	/***************************FOOTER*****************************/
+	footer{
+		display: none;
+	}
+}
+/* 
+	Autor: Alan Ricardo Flores Crespo
+*/
+
+#cedis{
+
+}
+#cedis h2{
+
+}
+.seccion-cdis{
+	margin: 0 auto;
+  	width: 550px;
+  	clear:both;
+  	font-family:Arial;
+  	/*border: solid #ec2727 1px;*/
+}
+/*mapa*/
+ul.notas li {
+  list-style: none;
+  display: none;
+  position: absolute;
+}
+
+div.mapa_imagen:hover ul.notas li {
+  display: block;
+}
+
+ul.notas li span {				
+	position: absolute;
+    margin: 10px 0 0 0;
+    padding: .5em;
+    display: none;
+    font-size:13px;
+    position: absolute;
+    text-align: justify;
+    width: 225px; height:auto;
+	}
+
+ul.notas li:hover span {
+  display: block;
+}
+ul.notas li#notaL1 {
+  width: 80px; height:50px; top: 15px; left: 290px;
+}
+ul.notas li#notaL1 span{
+ top:-50px; left:-260px; 
+ color:#cc9900 !important;
+}
+ul.notas li#notaL2 {
+  width: 80px; height: 50px; top: 85px; left: 240px;
+}
+ul.notas li#notaL2 span{
+ top:-50px; left:-240px;
+ color:#CC0000 !important;
+ width: 200px !important;
+}
+ul.notas li#notaL3 {
+  width: 80px; height: 50px; top: 170px; left: 240px;
+}
+ul.notas li#notaL3 span{
+ top:-50px; left: -230px;
+ color:#009966 !important;
+ width: 200px !important;
+}
+ul.notas li#notaL4 {
+  width: 80px; height: 50px; top: 240px; left: 290px;
+}
+ul.notas li#notaL4 span{
+ top:-20px; left: -250px;
+ color:#ec2727 !important;
+}
+ul.notas li#notaR1 {
+  width: 80px; height: 50px; top: 85px; left: 450px;
+}
+ul.notas li#notaR1 span {
+top: -50px; left: 100px;
+color: indigo !important;
+width: 280px !important;
+}
+ul.notas li#notaR2 {
+  width: 80px; height: 50px; top: 170px; left: 480px;
+}
+ul.notas li#notaR2 span {
+top: -50px; left: 100px;
+color:#9933ff !important;
+}
+ul.notas li#notaR3 {
+  width:80px; height: 50px; top: 250px; left: 450px;
+}
+ul.notas li#notaR3 span {
+top: -20px; left: 100px;
+color:#339900 !important;
+}
+.color-dialog { background-color: transparent;
+       /*border: 1px solid #CC0000; */}
+/* fin-mapa*/
+
+/*mapa2*/
+div.mapa_imagen {
+  position: relative
+}
+ul.ubicacion li {
+  list-style: none;
+  display: none;
+  position: absolute;
+}
+div.mapa_imagen:hover ul.ubicacion li {
+  display: block;
+  
+}
+
+ul.ubicacion li span {				
+	position: absolute;
+        margin: 10px 0 0 0;
+        padding: .5em;
+        display: none;
+        font-size:13px;
+        position: absolute;
+        text-align: justify;
+        width: 225px; height:auto; 
+        background-color: white;
+        border-color:#CC0000;
+        border-style: solid ;
+        border-width: 1px;
+	}
+
+ul.ubicacion li:hover span {
+  display: block;
+  
+}
+ul.ubicacion li:hover em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;   
+}
+
+ul.ubicacion li#notaL1 {
+  width: 35px; height:35px; top:140px; left:100px;
+}
+ul.ubicacion li#notaL1 span{
+ top:-50px; left:200px; 
+}
+ul.ubicacion li#notaL2 {
+  width: 35px; height:35px; top: 290px; left: 120px;
+}
+ul.ubicacion li#notaL2 span{
+ top:-50px; left:200px;  
+}
+ul.ubicacion li#notaL3 {
+ width: 35px; height:35px; top: 300px; left: 160px;
+}
+ul.ubicacion li#notaL3 span{
+ top:-50px; left:200px; 
+}
+ul.ubicacion li#notaL4 {
+  width: 35px; height:35px; top: 342px; left:145px;
+}
+ul.ubicacion li#notaL4 span{
+  top:-50px; left:200px;
+}
+.color-dialog { background-color: transparent;
+       /*border: 1px solid #CC0000; */}
+/* fin-mapa*/
+ul.ubicacion2 li {
+  list-style: none;
+  display: none;
+  position: absolute;
+  /*border: thin solid white;*/
+}
+div.mapa_imagen:hover ul.ubicacion2 li {
+  display: block;
+  
+}
+
+ul.ubicacion2 li span {				
+	/*margin-left: -999em;*/
+	position: absolute;
+        margin: 10px 0 0 0;
+        padding: .5em;
+        display: none;
+        /*opacity: 0.90;*/
+        font-size:13px;
+        position: absolute;
+        text-align: justify;
+        width: 225px; height:auto; 
+        background-color: white;
+        border-color: #000000;
+        border-style: solid ;
+        border-width: 1px;
+	}
+
+ul.ubicacion2 li:hover span {
+  display: block;
+  
+}
+ul.ubicacion2 li:hover em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul.ubicacion2 li#notaL1 {
+   width: 45px; height:45px; top: 352px; left:200px;
+}
+ul.ubicacion2 li#notaL1 span{
+ top:-50px; left:200px; 
+}
+/* mapa 2*/
+
+ul.ubicacion3 li {
+  list-style: none;
+  display: none;
+  position: absolute;
+  /*border: thin solid blue;*/
+}
+div.mapa_imagen:hover ul.ubicacion3 li {
+  display: block;
+  
+}
+
+ul.ubicacion3 li span {				
+	/*margin-left: -999em;*/
+	position: absolute;
+        margin: 10px 0 0 0;
+        padding: .5em;
+        display: none;
+        font-size:13px;
+        position: absolute;
+        text-align:justify;
+        width: 225px; 
+        height:auto; 
+        background-color: white;
+        border-color: #CC0000;
+        border-style: solid ;
+        border-width: 1px;
+	}
+
+ul.ubicacion3 li:hover span {
+  display: block;
+  
+}
+ul.ubicacion3 li:hover em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+ul.ubicacion3 li#notaL1 {
+ width:35px; height: 35px; top:428px; left: 208px;
+}
+ul.ubicacion3 li#notaL1 span{
+top:-50px; left:200px; 
+}
+ul.ubicacion3 li#notaL2 {
+ width:35px; height:35px; top: 455px; left: 140px;
+}
+ul.ubicacion3 li#notaL2 span{
+top:-100px; left:200px; 
+}
+ul.ubicacion3 li#notaL3 {
+width:35px; height:35px; top: 495px; left: 105px;
+}
+ul.ubicacion3 li#notaL3 span{
+top:-100px;; left:200px;
+}
+ul.ubicacion3 li#notaL4 {
+ width:35px; height:35px; top: 460px; left: 305px;
+}
+ul.ubicacion3 li#notaL4 span{
+top:-100px;; left:100px; 
+}
+ul.ubicacion3 li#notaL5 {
+ width:35px; height:35px; top: 515px; left: 285px;
+}
+ul.ubicacion3 li#notaL5 span{
+top:-100px; left:100px;  
+}
+
+/**44444**/
+ul.ubicacion4 li {
+  list-style: none;
+  display: none;
+  position: absolute;
+  /*border: thin solid blue;*/
+}
+div.mapa_imagen:hover ul.ubicacion4 li {
+  display: block;
+  
+}
+ul.ubicacion4 li span {				
+	position: absolute;
+        margin: 10px 0 0 0;
+        padding: .5em;
+        display: none;
+        font-size:13px;
+        position: absolute;
+        text-align: justify;
+        width: 275px; height:auto; 
+        background-color: white;
+        border-color: #000000;
+        border-style: solid ;
+        border-width: 1px;
+	}
+
+ul.ubicacion4 li:hover span {
+  display: block;
+  
+}
+ul.ubicacion4 li:hover em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ul.ubicacion4 li#notaL1 {
+ width:32px; height:30px; top: 605px; left:130px;
+}
+ul.ubicacion4 li#notaL1 span{
+ top:-230px; left:200px;
+}
+
+/* 5555*/
+ul.ubicacion5 li {
+  list-style: none;
+  display: none;
+  position: absolute;
+  /*border: thin solid blue;*/
+}
+div.mapa_imagen:hover ul.ubicacion5 li {
+  display: block;
+  
+}
+
+ul.ubicacion5 li span {				
+	position: absolute;
+        margin: 10px 0 0 0;
+        padding: .5em;
+        display: none;
+        font-size:13px;
+        position: absolute;
+        text-align: justify;
+        width: 225px; height:auto; 
+        background-color: white;
+        border-color: #000000;
+        border-style: solid ;
+        border-width: 1px;
+	}
+
+ul.ubicacion5 li:hover span {
+  display: block;
+  
+}
+ul.ubicacion5 li:hover em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ul.ubicacion5 li#notaL1 {
+ width:32px; height:30px; top: 630px; left:110px;
+}
+ul.ubicacion5 li#notaL1 span{
+ top:-250px; left:200px;
+}
+
+ul.ubicacion5 li#notaL2 {
+width:32px; height:30px; top: 610px; left:115px;
+}
+ul.ubicacion5 li#notaL2 span{
+  top:-200px; left:200px;
+}
+/*mapa ***/
+.imgcentros{
+   margin: 20px;
+   alignment-adjust: central;
+   width: 480px;
+   height: 635px;
+}
+#mini_cede{
+	width: 100%;
+	height: 100px;
+}

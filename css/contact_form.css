@@ -1,0 +1,141 @@
+.contact-form-title {
+    background-image: url(../img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    padding: 20px 15px;
+    width: 100%;
+}
+
+.contact-form-title h1 {
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 7px;
+    font-weight: bold;
+    text-shadow: 0px 2px 8px #000000;
+}
+
+.contact-form-title h2 {
+    font-size: 17px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0px 2px 8px #000000;
+}
+/*==================================================================
+Form */
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+    width: 100%;
+}
+/*------------------------------------------------------------------
+Inputs Formularios */
+
+.wrap-input, .wrap-file, .wrap-btn {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 26px;
+    width: 100%;
+}
+
+
+
+
+.file {
+    background: none;
+    margin-top: 10px;
+}
+
+form span {
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    margin-right: 10px;
+    text-align: right;
+    width: 250px;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    color: #000;
+    display: block;
+    font-size: 15px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    font-family: sans-serif;
+    min-height: 115px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+
+textarea:hover,
+input:hover,
+textarea:focus,
+input:focus {
+    background-color: #f9f9f9;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888;
+}
+
+input[type="submit"] {
+    background-color: #57b846;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-width: 160px;
+    outline: none !important;
+    padding: 20px;
+    width: 45%;
+    
+    transition: all 0.4s;
+}
+
+input[type="submit"]:hover,
+#cancelar:hover {
+    cursor: pointer;
+    background-color: #333333;
+}
+
+#cancelar {
+    background-color: #CE1313;
+}
+
+@media (max-width: 585px) {
+    .contact-form {
+        padding: 40px;
+    }
+
+    .wrap-input, .wrap-file, .wrap-btn {
+        flex-direction: column;
+    }
+
+    form span {
+        margin-bottom: 5px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,90 @@
+#productos {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.flex-container-productos {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1 0 calc(32%);
+    background-color: #F6F6F6;
+    text-align: center;
+    margin: 5px;
+    padding: 40px;
+}
+
+.box img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.mas-productos a {
+    border: 2px solid #000;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.mas-productos a:hover {
+    border: 2px solid #dd0000;
+    background: #fff;
+    color: #dd0000;
+}
+
+.mas-productos h1 {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #productos {
+        margin-bottom: 60px;
+    }
+    #productos .title-section {
+        margin-bottom: 0px;
+    }
+    .box {
+        display: none;
+    }
+    .mas-productos {
+        background-image: url("../img/familia-cocacola.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 20px;
+    }
+    .mas-productos h1 {
+        color: #fff;
+        display: block;
+        line-height: 35px;
+        margin-bottom: 60px;
+        text-shadow: 1px 2px 2px #000;
+    }
+    .mas-productos a {
+        background: rgba(237, 32, 35, .8);
+        color: #fff;
+        border: none
+    }
+    .mas-productos a:hover {
+        background: rgb(237, 32, 35);
+        border: none;
+        color: #fff;
+    }
+}

@@ -1,0 +1,12 @@
+.cd-horizontal-timeline * {
+    font-style: italic;
+}
+
+.cd-horizontal-timeline .events a,
+.cd-horizontal-timeline em {
+    font-weight: bold;
+}
+
+.cd-horizontal-timeline .events-content .item-historia p {
+    font-size: 20px;
+}
