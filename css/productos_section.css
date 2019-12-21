@@ -7,31 +7,16 @@
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box {
-    flex: 1 0 calc(32%);
-    background-color: #F6F6F6;
-    text-align: center;
     margin: 5px;
-    padding: 40px;
 }
 
 .box img {
+    margin-bottom: 10px;
     width: 150px;
-    margin-bottom: 10px;
-}
-
-.box h3 {
-    font-size: 25px;
-    font-style: italic;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.box p {
-    font-size: 17px;
-    font-style: italic;
 }
 
 .mas-productos a {

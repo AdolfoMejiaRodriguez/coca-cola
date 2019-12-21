@@ -12,6 +12,15 @@ $(window).on('load', function() {
         });
     }
 
+    //movimiento del menu
+    $('.smooth').click(function(e) {
+        e.preventDefault();
+        enlace = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(enlace).offset().top - 100
+        }, 1200);
+    });
+
     //SLIDER INICIO DE PAGINA
     $('#adaptive').lightSlider({
         adaptiveHeight: true,

@@ -80,14 +80,14 @@
                     <div class="item-inicio-container">
                         <h3>Industria Mexicana de Coca Cola</h3>
                         <p>Coca Cola reconocida como una de las principales empresas con mayor responsabilidad social sustentable en México.</p>
-                        <a href="#">Enviar mis Datos</a>
+                        <a href="https://www.coca-colamexico.com.mx/" target="_blank">Ir al sitio</a>
                     </div>
                 </li>
                 <li class="item" id="item2">
                     <div class="item-inicio-container">
                         <h3>Revista Voces</h3>
                         <p>Conoce los acontecimientos que se llevan a cabo así como otra información acerca del Grupo Embotellador del Nayar.</p>
-                        <a href="#">Enviar mis Datos</a>
+                        <a href="#">Saber mas</a>
                     </div>
                 </li>
                 <li class="item" id="item3">
@@ -365,39 +365,51 @@
         <div>
             <ul class="flex-container-productos">
                 <li class="box">
-                    <img src="img/producto.jpg" alt="">
-                    <h3>Coca-cola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="img/l-cocac.png" alt="">
                 </li>
                 
                 <li class="box">
-                    <img src="img/producto.jpg" alt="">
-                    <h3>Coca-cola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="img/l-fanta.png" alt="">
                 </li>
                 
                 <li class="box">
-                    <img src="img/producto.jpg" alt="">
-                    <h3>Coca-cola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="img/l-fresca.png" alt="">
                 </li>
                 
                 <li class="box">
-                    <img src="img/producto.jpg" alt="">
-                    <h3>Coca-cola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="img/l-sprite.png" alt="">
                 </li>
                 
                 <li class="box">
-                    <img src="img/producto.jpg" alt="">
-                    <h3>Coca-cola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>              
+                    <img src="img/l-mundet.png" alt="">              
                 </li>
                 
                 <li class="box">
-                    <img src="img/producto.jpg" alt="">
-                    <h3>Coca-cola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                    <img src="img/l-delaware.png" alt="">
+                </li>
+
+                <li class="box">
+                    <img src="img/l-fuzeTea.png" alt=""> 
+                </li>
+
+                <li class="box">
+                    <img src="img/l-powerade.png" alt=""> 
+                </li>
+
+                <li class="box">
+                    <img src="img/CielLogo.png" alt=""> 
+                </li>
+
+                <li class="box">
+                    <img src="img/monster.jpg" alt=""> 
+                </li>
+
+                <li class="box">
+                    <img src="img/l-santaClara.png" alt=""> 
+                </li>
+
+                <li class="box">
+                    <img src="img/l-valle.png" alt=""> 
                 </li>
             </ul>
 
@@ -467,8 +479,8 @@
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.3213988953007!2d-104.88611758461433!3d21.495127477068195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8427371903a3e957%3A0x16e2bbc4f30555e4!2sEmbotelladora+del+Nayar!5e0!3m2!1ses-419!2sus!4v1565365102320!5m2!1ses-419!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                <p>311 123 23 12</p>
-                <p>informacion@dominio.com</p>
+                <p>311 122 7827</p>
+                <a href="mailto:info@grupoembotellador.com">info@grupoembotellador.com</a>
             </div>
         </div>
     </section>
@@ -486,11 +498,21 @@
         </div>
 
         <div class="social-media">
-            <img src="img/facebook.png" alt="">
-            <img src="img/twitter.png" alt="">
-            <img src="img/youtube.png" alt="">
-            <img src="img/correo.png" alt="">
-            <img src="img/instagram.png" alt="">
+            <a href="https://www.facebook.com/GrupoEmbotelladorNayar/" target="_blank">
+                <img src="img/facebook.png" alt="">
+            </a>
+
+            <a href="https://twitter.com/GENayarOficial" target="_blank">
+                <img src="img/twitter.png" alt="">
+            </a>
+
+            <a href="mailto:info@grupoembotellador.com">
+                <img src="img/correo.png" alt="">
+            </a>
+
+            <a href="https://www.instagram.com/grupoembotelladornayar" target="_blank">
+                <img src="img/instagram.png" alt="">
+            </a>
         </div>
     </section>
 

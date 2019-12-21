@@ -55,7 +55,7 @@
     }
     
     .flex-container-inicio #item3 {
-        background-image: url("../img/bolsa-trabajo2.jpg");
+        background-image: url("../img/bolsa-trabajo.jpg");
     }
     
     .flex-container-inicio .item:hover {
@@ -90,7 +90,6 @@
     }
     
     .flex-container-inicio a:hover {
-        border: 1px solid #dd0000;
         background: #fff;
         color: #dd0000;
     }

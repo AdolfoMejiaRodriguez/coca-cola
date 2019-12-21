@@ -13,12 +13,17 @@ header {
         flex-wrap: wrap;
         justify-content: space-between;
         margin: auto;
+        margin-top: 15px;
         max-width: 1366px;
-        padding: 5px 20px;
+        padding: 8px 20px;
     }
 
     .logo img, .menu_ico img {
-        height: 50px;
+        height: 30px;
+    }
+
+    .logo img {
+        margin-left: 50px;
     }
 
     .menu_mobil {
@@ -90,9 +95,14 @@ header {
         width: auto;
     }
 
+    .logo img {
+        margin-left: 15px;
+    }
+
     li.menu_ico img:hover {
         cursor: pointer;
     }
+
     .menu_mobil {
         display: block;
     }
