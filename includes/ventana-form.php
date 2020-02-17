@@ -54,7 +54,7 @@
 
                 <div class="wrap-file">
                     <span>Adjuntar CV</span>
-                    <input class="file" type="file" id="my_file" name="my_file">
+                    <input class="fichero" type="file" id="fichero" name="fichero">
                 </div>
 
                 <div class="wrap-btn">

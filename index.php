@@ -1,3 +1,16 @@
+<?php
+
+include_once("class/class.php");
+
+if (isset($_POST["enviar"]) and $_POST["enviar"] == 'si')
+{
+    $t = new trabajo();
+    $t -> enviarCorreo();
+    exit;
+}else{}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,10 +43,17 @@
 </head>
 
 <body>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=525572035557" target="_blank"></a>
+    </div>
 
-    <!-- <section id="window">
-        <?php // include("includes/ventana-form.php"); ?>
-    </section> -->
+    <section id="window" class="hide">
+        <?php include("includes/ventana-form.php"); ?>
+    </section>
+
+    <section id="window-privacidad" class="hide">
+        <?php include("includes/ventana-privacidad.php"); ?>
+    </section>
 
     <header>
         <nav>
